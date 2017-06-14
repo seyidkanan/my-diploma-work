@@ -24,7 +24,7 @@ public class ConnectionDB {
         try {
 //            Class.forName("com.mysql.jdbc.Driver");
             myConn = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/qida?useSSL=false", "root", "oracle");
+                    "jdbc:mysql://localhost:3306/qida?useSSL=false", "xxxx", "xxxxx");
         } catch (Exception ex) {
             System.out.println("Exception: " + ex.getMessage());
            // System.out.println("SQLState: " + ex.getSQLState());
